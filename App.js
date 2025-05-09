@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Notice that the status bar has light text!</Text>
+      <Text>Notice that the status bar has light text!</Text>
       <StatusBar style="light" />
     </View>
   );
